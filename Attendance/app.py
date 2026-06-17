@@ -11,7 +11,7 @@ def get_base64_image(image_file):
         data = f.read()
     return base64.b64encode(data).decode()
 
-img = get_base64_image("/mount/src/attendance/Attendance/app.py")
+img = get_base64_image("/mount/src/attendance/Attendance/background.jpg")
 
 st.markdown(
     f"""
